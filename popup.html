@@ -24,11 +24,46 @@
       placeholder="请输入内容"></textarea>
   </div>
   <div class="d-grid gap-2">
-    <button type="button" class="btn btn-dark" id="confirm">确认</button>
+    <button type="button" class="btn btn-primary" id="confirm">确认</button>
   </div>
+
+
+<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="errorModalLabel">提示</h5>
+      </div>
+      <div class="modal-body">
+        请填写时间
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="errorClose" data-dismiss="modal">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">成功</h5>
+      </div>
+      <div class="modal-body">
+        定时器已设置，将在<span id="modalTime"></span>秒后提醒你！
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="successClose" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="./popup.js"></script>
   <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/jquery-3.5.1.js"></script>
 </body>
 
 </html>
