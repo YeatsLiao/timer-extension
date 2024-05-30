@@ -1,3 +1,7 @@
-【如何开发一个 Edge 插件】 https://www.bilibili.com/video/BV1FD4y1C7FR/?share_source=copy_web&vd_source=14701d5a175c7a6c85128b62e63dfd85
-
+一个 Edge 浏览器上的定时器插件示例，来自:
+【如何开发一个 Edge 插件】 https://www.bilibili.com/video/BV1FD4y1C7FR/?share_source=copy_web
 Microsoft Edge 开发人员文档：https://aka.ms/docEdgeDev
+
+A timer extension for Microsoft Edge, from:
+【How to develop an Edge extension】 https://www.bilibili.com/video/BV1FD4y1C7FR/?share_source=copy_web
+Microsoft Edge Developer Documentation: https://aka.ms/docEdgeDev
